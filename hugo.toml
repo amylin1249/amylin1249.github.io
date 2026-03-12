@@ -1,0 +1,52 @@
+baseURL = 'https://amylin1249.github.io/'
+languageCode = 'en-us'
+title = 'Amy Lin'
+theme = 'PaperMod'
+
+[params]
+    env = "production"
+    description = "MSCAPP Student at UChicago"
+    defaultTheme = "light"
+
+    [params.assets]
+        disableFingerprinting = true
+        customCSS = ["css/custom.css"]
+
+    [params.profileMode]
+        enabled = true
+        title = "Hi! I'm Amy 🪴"
+        subtitle = "she / her"
+        imageUrl = "img/profile.jpg" 
+        imageWidth = 150
+        imageHeight = 150
+        buttons = [
+            { name = "Projects", url = "/projects" },
+            { name = "Publications", url = "/publications" }
+        ]
+
+    [[params.socialIcons]]
+        name = "linkedin"
+        url = "https://linkedin.com/in/amylin1249/"
+    [[params.socialIcons]]
+        name = "github"
+        url = "https://github.com/amylin1249/"
+
+[[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 10
+[[menu.main]]
+    name = "Projects"
+    url = "/projects"
+    weight = 20
+[[menu.main]]
+    name = "Publications"
+    url = "/publications"
+    weight = 30
+[[menu.main]]
+    name = "Contact"
+    url = "/contact"
+    weight = 40
+
+[markup.goldmark.renderer]
+    unsafe = true
