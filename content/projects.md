@@ -22,7 +22,7 @@ At the University of Chicago, I have developed my technical skillset through bot
     * *Temporal Interpolation:* Resolved gaps across inconsistent reporting cycles (monthly vs. quarterly).
     * *Spatial Crosswalking:* Resolved inconsistently formatted ZIP-to-census-tract crosswalks and computed weighted aggregations to align data across geographic levels.
 * **Data Visualization:** Developed interactive line graphs visualizing covariates, showing how monthly median rent, encampment distributions, and street homeless population estimates change over time.
-* **UX & Design Leadership:** Led the dashboard interface design and authored all textual content to ensure technical findings were accessible to policy stakeholders.
+* **UX & Design Leadership:** Led the dashboard interface design and authored textual content to ensure technical findings were accessible to policy stakeholders.
 
 ---
 
@@ -30,11 +30,11 @@ At the University of Chicago, I have developed my technical skillset through bot
 **Tools:** ArcGIS  
 *Course: GIS Applications in the Social Sciences*
 
-**The Overview** Working with a partner, we developed a spatial analysis model to identify Chicago census tracts most at risk of gentrification. Rather than relying on a single indicator, we implemented a composite indexing framework that synthesized market pressure, demographic change, and housing instability to flag high-risk areas.
+**The Overview** Working with a teammate, we developed a spatial analysis model to identify Chicago census tracts most at risk of gentrification. Rather than relying on a single indicator, we implemented a composite indexing framework that synthesized market pressure, demographic change, and housing instability to flag high-risk areas.
 
 **My Personal Contributions**
 * **Methodological Framework:** Led the literature review to establish three distinct metric-based definitions of "gentrification risk." This research-driven approach ensured the model accounted for diverse policy lenses, such as housing cost burdens versus demographic shifts.
-* **Data Strategy & Sourcing:** Identified and integrated non-traditional data sources, including **eviction filings** and **building permit data**, to supplement standard Census metrics, providing a more real-time view of neighborhood change.
+* **Data Strategy & Sourcing:** Identified and integrated non-traditional data sources, including eviction filings and building permit data, to supplement standard Census metrics, providing a more real-time view of neighborhood change.
 
 ---
 
