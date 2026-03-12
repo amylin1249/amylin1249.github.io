@@ -15,13 +15,14 @@ At the University of Chicago, I have developed my technical skillset through bot
 **Links:** [GitHub Repo](https://github.com/uchicago-2026-capp30122/project-all-access-livable-housing)  
 *Course: Computer Science with Applications II*
 
-**The Overview** Working in a team of four, we built an end-to-end data application to analyze housing homelessness trends in San Francisco. The project is powered by a Python pipeline that ingests and standardizes disparate public datasets and ultimately produces a multi-dimensional analysis of relevant indicators with a dynamic choropleth map and line graphs visualizing covariates such as eviction rates, rent levels, encampment counts, and 311 service calls.  
+**The Overview** Working in a team of four, we built an end-to-end data application to analyze housing and homelessness trends in San Francisco. The project is powered by a Python pipeline that ingests and standardizes disparate public datasets and ultimately produces a multi-dimensional analysis of relevant indicators, with a dynamic choropleth map and line graphs visualizing covariates such as eviction rates, rent levels, encampment counts, and 311 service calls.  
 
 **My Personal Contributions**
-* **Data Engineering Pipeline:** Built a robust ingestion and cleaning pipeline for three primary datasets (Monthly Median Rent, Encampment Counts, and 311 Service Calls).
-    * *Temporal Interpolation:* Resolved gaps across inconsistent reporting cycles (monthly vs. quarterly).
-    * *Spatial Crosswalking:* Resolved inconsistently formatted ZIP-to-census-tract crosswalks and computed weighted aggregations to align data across geographic levels.
-* **Data Visualization:** Developed interactive line graphs visualizing covariates, showing how monthly median rent, encampment distributions, and street homeless population estimates change over time.
+* **Data Engineering Pipeline:** Built a robust ingestion and cleaning pipeline for three primary datasets (median rent, encampment counts, and 311 service calls).
+    * *Temporal Interpolation:* Harmonized inconsistent reporting cycles using linear interpolation to create a continuous, high-frequency time-series for trend analysis.
+    * *Spatial Crosswalking:* Engineered a ZIP-to-census-tract mapping pipeline, utilizing weighted population aggregations to ensure granular data alignment across disparate geographic levels.
+    * *Statistical Imputation:* Addressed missing data by implementing mean imputation across feature sets, maintaining sample size integrity and ensuring model robustness for downstream analysis.
+* **Data Visualization:** Developed interactive line graphs visualizing how monthly median rent, encampment distributions, and street homeless population estimates change over time in different geographic locations (zip codes and census tracts).
 * **UX & Design Leadership:** Led the dashboard interface design and authored textual content to ensure technical findings were accessible to policy stakeholders.
 
 ---
