@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Projects on Amy Lin</title>
+    <link>http://localhost:1313/projects/</link>
+    <description>Recent content in Projects on Amy Lin</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Addressing Disproportionate Gun Possession Charges among Young Black Men in Englewood</title>
+      <link>http://localhost:1313/projects/englewood/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/englewood/</guid>
+      <description>An analytical pipeline in R synthesizing Cook County and Chicago datasets to expose trends in felony review and bond outcomes.</description>
+    </item>
+    <item>
+      <title>Identifying Chicago Neighborhoods at Risk of Gentrification</title>
+      <link>http://localhost:1313/projects/gis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/gis/</guid>
+      <description>A spatial analysis model using a composite indexing framework to identify Chicago census tracts at risk of housing displacement.</description>
+    </item>
+    <item>
+      <title>Nonprofit Website Redesign</title>
+      <link>http://localhost:1313/projects/cawc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/cawc/</guid>
+      <description>A UX design project focused on optimizing accessibility and navigation of a website with domestic violence survivor resources.</description>
+    </item>
+    <item>
+      <title>Project All Access Livable Housing</title>
+      <link>http://localhost:1313/projects/122/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/122/</guid>
+      <description>An end-to-end data application in Python analyzing spatio-temporal housing and homelessness trends in San Francisco.</description>
+    </item>
+  </channel>
+</rss>
