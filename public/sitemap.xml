@@ -2,18 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://amylin1249.github.io/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
   </url><url>
-    <loc>https://amylin1249.github.io/</loc>
+    <loc>http://localhost:1313/projects/englewood/</loc>
   </url><url>
-    <loc>https://amylin1249.github.io/categories/</loc>
+    <loc>http://localhost:1313/</loc>
   </url><url>
-    <loc>https://amylin1249.github.io/contact/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://amylin1249.github.io/projects/</loc>
+    <loc>http://localhost:1313/contact/</loc>
   </url><url>
-    <loc>https://amylin1249.github.io/publications/</loc>
+    <loc>http://localhost:1313/projects/gis/</loc>
   </url><url>
-    <loc>https://amylin1249.github.io/tags/</loc>
+    <loc>http://localhost:1313/projects/cawc/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/122/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/</loc>
+  </url><url>
+    <loc>http://localhost:1313/publications/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>

@@ -2,53 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Amy Lin</title>
-    <link>https://amylin1249.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Amy Lin</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://amylin1249.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>https://amylin1249.github.io/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://amylin1249.github.io/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>&lt;p&gt;Hi! I&amp;rsquo;m Amy (she/her). I&amp;rsquo;m a first-year graduate student passionate about leveraging data and technology to advance social justice. I focus on applying technical skills to domestic social policy issues, including criminal justice and affordable housing, and aspire to work in civic tech. Having had the privilege of living in four major regions of the United States (I grew up in California, went to college in Texas, worked in New York, and now live and study in Illinois), I’m particularly drawn to local policy work and urban issues.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Contact</title>
-      <link>https://amylin1249.github.io/contact/</link>
+      <title>Addressing Disproportionate Gun Possession Charges among Young Black Men in Englewood</title>
+      <link>http://localhost:1313/projects/englewood/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://amylin1249.github.io/contact/</guid>
+      <guid>http://localhost:1313/projects/englewood/</guid>
+      <description>Built an analytical pipeline to expose racial disparities in arrests, felony review, and bond outcomes.</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
       <description>&lt;p&gt;I’m always excited to connect with people interested in social policy, civic tech, or anything else that caught your eye on this site.&lt;/p&gt;
 &lt;p&gt;If you have questions, would like to collaborate, or just want to say hello, please feel free to reach out! You can email me at &lt;a href=&#34;mailto:amyslin@uchicago.edu&#34;&gt;amyslin at uchicago.edu&lt;/a&gt;.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;em&gt;You can also find me on &lt;a href=&#34;https://linkedin.com/in/amylin1249&#34;&gt;LinkedIn&lt;/a&gt; or check out my code on &lt;a href=&#34;https://github.com/amylin1249&#34;&gt;GitHub&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Projects</title>
-      <link>https://amylin1249.github.io/projects/</link>
+      <title>Identifying Chicago Neighborhoods at Risk of Gentrification</title>
+      <link>http://localhost:1313/projects/gis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://amylin1249.github.io/projects/</guid>
-      <description>&lt;p&gt;At the &lt;a href=&#34;https://capp.uchicago.edu/&#34;&gt;University of Chicago&lt;/a&gt;, I have developed my technical skillset through both coursework and extracurricular projects, working at the intersection of computer science and social policy.&lt;/p&gt;
-&lt;p&gt;Click on the images below to learn more about each project.&lt;/p&gt;
-&lt;div style=&#34;display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-bottom: 40px;&#34;&gt;
-  &lt;a href=&#34;https://amylin1249.github.io/projects/122&#34; style=&#34;text-decoration: none; color: inherit;&#34;&gt;
-    &lt;div style=&#34;border: 1px solid #eee; padding: 20px; border-radius: 8px; background: #fafafa;&#34;&gt;
-      &lt;img src=&#34;https://amylin1249.github.io/img/122-thumbnail.png&#34; style=&#34;width: 100%; height: 200px; object-fit: cover; border-radius: 4px; margin-bottom: 10px;&#34;&gt;
-      &lt;h3 style=&#34;margin-top: 0;&#34;&gt;SF Homelessness&lt;/h3&gt;
-      &lt;p style=&#34;font-size: 0.9em;&#34;&gt;Developed a spatio-temporal data application to model housing and homelessness trends in San Francisco.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/projects/gis/</guid>
+      <description>Engineered a spatial analysis model to identify neighborhoods at risk of housing displacement.</description>
+    </item>
+    <item>
+      <title>Nonprofit Website Redesign</title>
+      <link>http://localhost:1313/projects/cawc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/cawc/</guid>
+      <description>Redesigned a resource website for domestic violence survivors using trauma-informed UX.</description>
+    </item>
+    <item>
+      <title>Project All Access Livable Housing</title>
+      <link>http://localhost:1313/projects/122/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/122/</guid>
+      <description>Developed a spatio-temporal data application to model housing and homelessness trends in San Francisco.</description>
     </item>
     <item>
       <title>Publications</title>
-      <link>https://amylin1249.github.io/publications/</link>
+      <link>http://localhost:1313/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://amylin1249.github.io/publications/</guid>
+      <guid>http://localhost:1313/publications/</guid>
       <description>&lt;p&gt;In my most recent role at &lt;a href=&#34;https://uhfnyc.org/&#34;&gt;United Hospital Fund&lt;/a&gt;, I authored two data-driven publications exploring the intersection of health and social issues.&lt;/p&gt;
 &lt;p&gt;Click on the images below to read the publications.&lt;/p&gt;
 &lt;div style=&#34;display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 20px;&#34;&gt;
   &lt;a href=&#34;https://uhfnyc.org/publications/publication/climate-change-and-health-understanding-the-ripple-effects/&#34; target=&#34;_blank&#34; style=&#34;text-decoration: none; color: inherit;&#34;&gt;
     &lt;div style=&#34;border: 1px solid #eee; padding: 20px; border-radius: 8px; background: #fafafa; display: flex; flex-direction: column; height: 100%;&#34;&gt;
-      &lt;img src=&#34;https://amylin1249.github.io/img/climate-change-report.png&#34; style=&#34;width: 100%; height: 200px; object-fit: cover; border-radius: 4px; margin-bottom: 10px;&#34;&gt;
+      &lt;img src=&#34;http://localhost:1313/img/climate-change-report.png&#34; style=&#34;width: 100%; height: 200px; object-fit: cover; border-radius: 4px; margin-bottom: 10px;&#34;&gt;
       &lt;h3 style=&#34;margin-top: 0;&#34;&gt;Climate Change and Health&lt;/h3&gt;
       &lt;p style=&#34;font-size: 0.9em; flex-grow: 1;&#34;&gt;Quantified climate change&#39;s impact on health and the social drivers of health.&lt;/p&gt;</description>
     </item>
