@@ -4,7 +4,7 @@ title = "Nonprofit Website Redesign"
 description = "Redesigned a resource website for domestic violence survivors using trauma-informed UX."
 +++
 
-**Tools:** UX Design, Figma
+**Tools:** UX Design, Figma  
 **Client:** Connections for Abused Women and their Children (CAWC)
 
 ### Overview
