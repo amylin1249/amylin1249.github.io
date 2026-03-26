@@ -4,7 +4,7 @@
   <url>
     <loc>http://localhost:1313/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/englewood/</loc>
+    <loc>http://localhost:1313/project-details/englewood/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
   </url><url>
@@ -12,11 +12,13 @@
   </url><url>
     <loc>http://localhost:1313/contact/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/gis/</loc>
+    <loc>http://localhost:1313/project-details/gis/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/cawc/</loc>
+    <loc>http://localhost:1313/project-details/cawc/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/122/</loc>
+    <loc>http://localhost:1313/project-details/122/</loc>
+  </url><url>
+    <loc>http://localhost:1313/project-details/</loc>
   </url><url>
     <loc>http://localhost:1313/projects/</loc>
   </url><url>
