@@ -8,10 +8,6 @@ theme = 'PaperMod'
     description = "MSCAPP Student at UChicago"
     defaultTheme = "light"
 
-    [params.assets]
-        disableFingerprinting = true
-        customCSS = ["css/custom.css"]
-
     [params.profileMode]
         enabled = true
         title = "Hi! I'm Amy 🪴"

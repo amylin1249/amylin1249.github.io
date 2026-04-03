@@ -1,0 +1,118 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+{{- if hugo.IsProduction | or (eq site.Params.env "production") | and (ne .Params.robotsNoIndex true) }}
+<meta name="robots" content="index, follow">
+{{- else }}
+<meta name="robots" content="noindex, nofollow">
+{{- end }}
+
+{{- /* Title */}}
+<title>{{ if .IsHome }}{{ else }}{{ if .Title }}{{ .Title }} | {{ end }}{{ end }}{{ site.Title }}</title>
+
+{{- /* Meta */}}
+{{- if .IsHome }}
+{{ with site.Params.keywords -}}<meta name="keywords" content="{{- range $i, $e := . }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}">{{ end }}
+{{- else }}
+<meta name="keywords" content="{{ if .Params.keywords -}}
+    {{- range $i, $e := .Params.keywords }}{{ if $i }}, {{ end }}{{ $e }}{{ end }} {{- else }}
+    {{- range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }} {{- end -}}">
+{{- end }}
+<meta name="description" content="{{- with .Description }}{{ . }}{{- else }}{{- if or .IsPage .IsSection}}
+    {{- .Summary | default (printf "%s - %s" .Title  site.Title) }}{{- else }}
+    {{- with site.Params.description }}{{ . }}{{- end }}{{- end }}{{- end -}}">
+<meta name="author" content="{{ (partial "author.html" . ) }}">
+<link rel="canonical" href="{{ if .Params.canonicalURL -}} {{ trim .Params.canonicalURL " " }} {{- else -}} {{ .Permalink }} {{- end }}">
+
+{{- /* Styles */}}
+
+{{- /* Core CSS Loading Logic */}}
+{{- $theme_vars := (resources.Get "css/core/theme-vars.css") }}
+{{- $reset := (resources.Get "css/core/reset.css") }}
+{{- $media := (resources.Get "css/core/zmedia.css") }}
+{{- $common := (resources.Match "css/common/*.css") | resources.Concat "assets/css/common.css" }}
+{{- $core := (slice $theme_vars $reset $common $media) | resources.Concat "assets/css/core.css" | resources.Minify }}
+{{- $extended := (resources.Match "css/extended/*.css") | resources.Concat "assets/css/extended.css" | resources.Minify }}
+{{- $stylesheet := (slice $core $extended) | resources.Concat "assets/css/stylesheet.css"  }}
+
+<link crossorigin="anonymous" href="{{ $stylesheet.RelPermalink }}" rel="preload stylesheet" as="style">
+
+{{- /* Favicons */}}
+<link rel="icon" href="{{ site.Params.assets.favicon | default "favicon.ico" | absURL }}">
+
+{{- /* BACKGROUND COLORING */ -}}
+<style>
+  :root {
+    --theme: transparent !important;
+    --background: #fdfdfd !important; 
+    --primary: #2d3436 !important; 
+    --secondary: #64748b !important;
+    --content: #2d3436 !important;
+  }
+
+  html {
+    background-color: #fdfdfd !important;
+    margin: 0; padding: 0;
+  }
+
+  html::before {
+    content: "";
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw; height: 100vh;
+    background: 
+      radial-gradient(circle at 5% 5%, #c8e6c9 0%, transparent 65%), 
+      radial-gradient(circle at 95% 95%, #b2ebf2 0%, transparent 65%);
+    z-index: -2;
+    opacity: 0.85;
+  }
+
+  html::after {
+    content: "";
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(255, 255, 255, 0.45);
+    backdrop-filter: blur(80px) saturate(110%) brightness(101%);
+    z-index: -1;
+    pointer-events: none;
+  }
+
+  body, .main, .list, .profile_inner, .wrapper, #top, .header, .footer, 
+  article, .post-entry, .entry-header, .entry-content, .entry-footer,
+  .post-content, .post-header, .archive-entry, .archive-month {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  body {
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: -0.015em;
+    color: #2d3436 !important;
+  }
+
+  .social-icons a svg {
+    height: 24px !important; width: 24px !important;
+    fill: #2d3436 !important;
+    opacity: 0.65;
+    transition: opacity 0.3s ease;
+  }
+
+  .social-icons a:hover svg {
+    opacity: 1;
+  }
+</style>
+
+{{- /* Theme Toggle Script */}}
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    }
+</script>

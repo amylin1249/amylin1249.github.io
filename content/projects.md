@@ -19,21 +19,21 @@ Click on the images below to learn more about each project.
     </div>
   </a>
 
-  <a href="/project-details/gis" style="text-decoration: none; color: inherit;">
-    <div style="border: 1px solid #eee; padding: 20px; border-radius: 8px; background: #fafafa; height: 100%;">
-      <img src="https://amylin1249.github.io/img/gis-thumbnail.png" style="width: 100%; height: 200px; object-fit: cover; border-radius: 4px; margin-bottom: 10px;">
-      <h3 style="margin-top: 0;">Chicago Gentrification Risk</h3>
-      <p style="font-size: 0.9em;">Engineered a spatial analysis model to identify neighborhoods at risk of housing displacement.</p>
-      <div style="font-size: 0.8em; color: #777;">ArcGIS</div>
-    </div>
-  </a>
-
   <a href="/project-details/englewood" style="text-decoration: none; color: inherit;">
     <div style="border: 1px solid #eee; padding: 20px; border-radius: 8px; background: #fafafa; height: 100%;">
       <img src="https://amylin1249.github.io/img/englewood-thumbnail.png" style="width: 100%; height: 200px; object-fit: cover; border-radius: 4px; margin-bottom: 10px;">
       <h3 style="margin-top: 0;">Chicago Case Disparities</h3>
       <p style="font-size: 0.9em;">Built an analytical pipeline to expose racial disparities in arrests, felony review, and bond outcomes.</p>
       <div style="font-size: 0.8em; color: #777;">R • Tidyverse • ggplot2</div>
+    </div>
+  </a>
+
+  <a href="/project-details/gis" style="text-decoration: none; color: inherit;">
+    <div style="border: 1px solid #eee; padding: 20px; border-radius: 8px; background: #fafafa; height: 100%;">
+      <img src="https://amylin1249.github.io/img/gis-thumbnail.png" style="width: 100%; height: 200px; object-fit: cover; border-radius: 4px; margin-bottom: 10px;">
+      <h3 style="margin-top: 0;">Chicago Gentrification Risk</h3>
+      <p style="font-size: 0.9em;">Engineered a spatial analysis model to identify neighborhoods at risk of housing displacement.</p>
+      <div style="font-size: 0.8em; color: #777;">ArcGIS</div>
     </div>
   </a>
 

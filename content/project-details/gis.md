@@ -5,7 +5,8 @@ description = "Engineered a spatial analysis model to identify neighborhoods at 
 +++
 
 **Tools:** ArcGIS  
-**Course:** GIS Applications in the Social Sciences
+**Course:** GIS Applications in the Social Sciences  
+**Link:** [Report](https://drive.google.com/file/d/1umseqhMJrn8RZRogFZniyRsJTy1zPu-i/view?usp=drive_link)
 
 ### Overview
 Working with a teammate, we developed a spatial analysis model to identify Chicago census tracts most at risk of gentrification. Rather than relying on a single indicator, we implemented a composite indexing framework that synthesized market pressure, demographic change, and housing instability to flag high-risk areas. The resulting spatial tools enable policymakers to identify vulnerable zones and implement targeted housing interventions before displacement occurs.
