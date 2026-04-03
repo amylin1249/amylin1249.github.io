@@ -5,7 +5,7 @@ description = "Redesigned a resource website for domestic violence survivors usi
 +++
 
 **Tools:** UX Design, Figma  
-**Client:** Teamwork Englewood
+**Client:** [Connections for Abused Women and their Children (CAWC)](https://www.cawc.org/)
 
 ### Overview
 As Project Lead, I spearheaded a ten-person volunteer team in a comprehensive digital redesign for a local nonprofit serving domestic violence survivors. I defined the site-wide information architecture, establishing the strategic vision for how content should be reorganized to streamline access to vital resources, and optimized the donor interface to improve conversion rates. We provided the organization with a modernized, trauma-informed digital strategy to better serve their community and scale their fundraising capacity.

@@ -5,7 +5,7 @@ description = "Built an analytical pipeline to expose racial disparities in arre
 +++
 
 **Tools:** R (Tidyverse, ggplot2)  
-**Client:** Teamwork Englewood  
+**Client:** [Teamwork Englewood](https://teamworkenglewood.org/)  
 **Links:** [Data Brief](https://drive.google.com/file/d/1jpKfoY3BQhmdN3JTbsSUsOHfQbvh9exx/view?usp=sharing), [Policy Memorandum](https://drive.google.com/file/d/1T05ZH5ONkxL76lRJqFiZQhEYdleY5wVY/view?usp=drive_link)
 
 ### Overview
