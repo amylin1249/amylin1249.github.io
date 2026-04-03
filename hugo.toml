@@ -5,7 +5,7 @@ theme = 'PaperMod'
 
 [params]
     env = "production"
-    description = "MSCAPP Student at UChicago"
+    description = "Computer Science + Public Policy @ University of Chicago"
     defaultTheme = "light"
 
     [params.profileMode]
