@@ -4,7 +4,7 @@ title = "Project NYPD Enforcement Gap"
 description = "Compared linear, tree-based, and neural network models to examine what predicts physical force during NYPD stops."
 +++
 
-**Tools:** Python (Pandas, scikit-learn, TensorFlow/Keras)  
+**Tools:** Python (scikit-learn, TensorFlow, Pandas)  
 **Course:** Machine Learning for Public Policy  
 **Links:** [Report](https://drive.google.com/file/d/1thRrmlFTj4hrptw08muKC_4v_jTs68zo/view?usp=sharing), [GitHub Repository](https://github.com/amylin1249/nypd-enforcement-gap)
 
