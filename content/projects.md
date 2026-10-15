@@ -10,6 +10,15 @@ Click on the images below to learn more about each project.
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-bottom: 40px;">
 
+  <a href="/project-details/nypd" style="text-decoration: none; color: inherit;">
+    <div style="border: 1px solid #eee; padding: 20px; border-radius: 8px; background: #fafafa; height: 100%;">
+      <img src="https://amylin1249.github.io/img/nypd-thumbnail.png" style="width: 100%; height: 200px; object-fit: cover; border-radius: 4px; margin-bottom: 10px;">
+      <h3 style="margin-top: 0;">NYC Police Use of Force</h3>
+      <p style="font-size: 0.9em;">Compared linear, tree-based, and neural network models to examine what predicts physical force during NYPD stops.</p>
+      <div style="font-size: 0.8em; color: #777;">Python • scikit-learn • TensorFlow/Keras • Pandas</div>
+    </div>
+  </a>
+
   <a href="/project-details/122" style="text-decoration: none; color: inherit;">
     <div style="border: 1px solid #eee; padding: 20px; border-radius: 8px; background: #fafafa; height: 100%;">
       <img src="https://amylin1249.github.io/img/122-thumbnail.png" style="width: 100%; height: 200px; object-fit: cover; border-radius: 4px; margin-bottom: 10px;">
